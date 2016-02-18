@@ -8,12 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		B174B4261C76375C00FA3320 /* WGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B174B4251C76375C00FA3320 /* WGUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B174B42E1C76379000FA3320 /* WGGeneralUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B174B42D1C76379000FA3320 /* WGGeneralUtils.swift */; };
+		B174B4301C76379A00FA3320 /* WGGeneralExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B174B42F1C76379A00FA3320 /* WGGeneralExtensions.swift */; };
+		B174B4331C7638E200FA3320 /* WGRealmUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B174B4321C7638E200FA3320 /* WGRealmUtils.swift */; };
+		B174B4351C76394400FA3320 /* WGProgressUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B174B4341C76394400FA3320 /* WGProgressUtils.swift */; };
+		B174B4371C763C0C00FA3320 /* WGDeviceUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B174B4361C763C0C00FA3320 /* WGDeviceUtils.swift */; };
+		B174B4391C763E1700FA3320 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B174B4381C763E1700FA3320 /* Images.xcassets */; };
+		B174B43C1C76479200FA3320 /* WGDateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B174B43B1C76479200FA3320 /* WGDateUtils.swift */; };
+		B174B43E1C7649F500FA3320 /* WGUIElementUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B174B43D1C7649F500FA3320 /* WGUIElementUtils.swift */; };
+		B174B4401C764B4E00FA3320 /* WGStringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B174B43F1C764B4E00FA3320 /* WGStringUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B174B4221C76375C00FA3320 /* WGUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WGUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B174B4251C76375C00FA3320 /* WGUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGUtils.h; sourceTree = "<group>"; };
 		B174B4271C76375C00FA3320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B174B42D1C76379000FA3320 /* WGGeneralUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WGGeneralUtils.swift; sourceTree = "<group>"; };
+		B174B42F1C76379A00FA3320 /* WGGeneralExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WGGeneralExtensions.swift; sourceTree = "<group>"; };
+		B174B4321C7638E200FA3320 /* WGRealmUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WGRealmUtils.swift; sourceTree = "<group>"; };
+		B174B4341C76394400FA3320 /* WGProgressUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WGProgressUtils.swift; sourceTree = "<group>"; };
+		B174B4361C763C0C00FA3320 /* WGDeviceUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WGDeviceUtils.swift; sourceTree = "<group>"; };
+		B174B4381C763E1700FA3320 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B174B43B1C76479200FA3320 /* WGDateUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WGDateUtils.swift; sourceTree = "<group>"; };
+		B174B43D1C7649F500FA3320 /* WGUIElementUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WGUIElementUtils.swift; sourceTree = "<group>"; };
+		B174B43F1C764B4E00FA3320 /* WGStringUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WGStringUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +64,27 @@
 		B174B4241C76375C00FA3320 /* WGUtils */ = {
 			isa = PBXGroup;
 			children = (
+				B174B4311C76388200FA3320 /* Utils */,
 				B174B4251C76375C00FA3320 /* WGUtils.h */,
 				B174B4271C76375C00FA3320 /* Info.plist */,
+				B174B4381C763E1700FA3320 /* Images.xcassets */,
 			);
 			path = WGUtils;
+			sourceTree = "<group>";
+		};
+		B174B4311C76388200FA3320 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B174B42F1C76379A00FA3320 /* WGGeneralExtensions.swift */,
+				B174B42D1C76379000FA3320 /* WGGeneralUtils.swift */,
+				B174B4321C7638E200FA3320 /* WGRealmUtils.swift */,
+				B174B4341C76394400FA3320 /* WGProgressUtils.swift */,
+				B174B4361C763C0C00FA3320 /* WGDeviceUtils.swift */,
+				B174B43B1C76479200FA3320 /* WGDateUtils.swift */,
+				B174B43D1C7649F500FA3320 /* WGUIElementUtils.swift */,
+				B174B43F1C764B4E00FA3320 /* WGStringUtils.swift */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B174B4391C763E1700FA3320 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +166,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B174B4351C76394400FA3320 /* WGProgressUtils.swift in Sources */,
+				B174B43E1C7649F500FA3320 /* WGUIElementUtils.swift in Sources */,
+				B174B43C1C76479200FA3320 /* WGDateUtils.swift in Sources */,
+				B174B42E1C76379000FA3320 /* WGGeneralUtils.swift in Sources */,
+				B174B4401C764B4E00FA3320 /* WGStringUtils.swift in Sources */,
+				B174B4331C7638E200FA3320 /* WGRealmUtils.swift in Sources */,
+				B174B4301C76379A00FA3320 /* WGGeneralExtensions.swift in Sources */,
+				B174B4371C763C0C00FA3320 /* WGDeviceUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +272,7 @@
 		B174B42B1C76375C00FA3320 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -238,12 +283,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hu.wintergarden.WGUtils;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		B174B42C1C76375C00FA3320 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -276,6 +323,7 @@
 				B174B42C1C76375C00FA3320 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
