@@ -32,5 +32,5 @@ s.framework = "UIKit"
 s.source_files = "WGUtils/**/*.{swift}"
 
 # 9
-s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg}"
+s.resources = "WGUtils/**/*.{png,jpeg,jpg}"
 end
